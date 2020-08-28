@@ -4,7 +4,7 @@
 #Predecessor : de_autoguide_page_urls_V1.0
 #Successor : generate_autoguide_article_id_v1.0
 #Date originally writen : 19/08/2019
-#Owner : Sangameshwar
+#Owner : Kanwar
 #Path : D:\Projects\Automotive\Codes\Dev
 #Version :
 
