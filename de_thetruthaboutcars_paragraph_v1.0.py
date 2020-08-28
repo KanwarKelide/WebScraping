@@ -4,7 +4,7 @@
 #Predecessor :  generate_thetruthaboutcars_article_id_v1.0
 #Successor : de_thetruthaboutcars_sentence_master_V1.0
 #Date originally writen : 27/08/2019
-#Owner : Sangameshwar
+#Owner : Kanwar
 #Path : D:\Projects\Automotive\Codes\Dev
 #Version :
 
