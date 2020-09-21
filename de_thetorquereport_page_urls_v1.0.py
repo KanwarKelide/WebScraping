@@ -28,7 +28,7 @@ for k in range(0,1244):
     all_urls.append(url)
     all_category.append('News')
     all_source.append('The Torque Report')
-
+    
     outdf = pd.DataFrame({'page_url': all_urls,
                        'Category':'News',
                        'Source':all_source})
