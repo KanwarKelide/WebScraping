@@ -15,7 +15,7 @@ all_urls =[]
 all_source=[]
 all_category =[]
 
-u = 'https://www.thetorquereport.com/category/news/page/'
+u = 'https://www.thetorquereport.com/category/news/'
 
 for k in range(0,1244):
 
