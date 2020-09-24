@@ -6,7 +6,7 @@
 # Takes care of time durations like: 2012 And 2013, 2012 and 2013
 
 # Folders
-main_dir = "D:\Projects\Automotive\\"
+main_dir = "D:\Projects\\"
 path = main_dir + "Output\Formatted\\"
 temp = main_dir + "Output\Temp\\"
 fina = main_dir + "Output\Final\\"
@@ -34,7 +34,7 @@ import nltk
 from nltk.tokenize import sent_tokenize
 from nltk.tokenize import word_tokenize
 import urllib3
-http = urllib3.PoolManager()
+#http = urllib3.PoolManager()
 from bs4 import BeautifulSoup
 import string
 from string import punctuation
