@@ -1,4 +1,4 @@
-#Code Name : de_thetruthaboutcars_paragraph_V1.0
+
 #Source :https://www.thetruthaboutcars.com
 #Purpose : Extracting paragraphs from each article
 #Predecessor :  generate_thetruthaboutcars_article_id_v1.0
