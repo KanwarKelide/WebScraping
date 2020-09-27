@@ -220,7 +220,7 @@ def byteify(input):
     else:
         return input
 
-# def remove_unicode(text):
+ def remove_unicode(text):
 #     text = text.replace('Â', '').replace('â€™', "'").replace('â', '').replace("...", "").replace("]","").replace('&#039;',"'").replace('&ldquo;','"').replace('"','').replace('&amp;','&').replace('*','')
 #     text = text.replace('A&#770; ', ' ').replace("\\", "").strip()
 #     text = unicodedata.normalize("NFKD", unicode(text, encoding='utf-8'))
