@@ -11,7 +11,7 @@
 code_path = "D:\\Projects\\Automotive\\Codes\Dev\\"
 exec(open(code_path + "global_environment_variables_v1.0.py").read())
 
-df = pd.read_csv(path + 'thetorquereport_page_urls.csv')
+df = pd.read_csv(path + 'test_url.csv')
 print(len(df))
 import datetime
 all_article_urls = []
