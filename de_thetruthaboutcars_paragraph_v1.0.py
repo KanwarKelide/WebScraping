@@ -40,7 +40,7 @@ for z in range(s,e):
         page = page.replace('\\r', '').replace('\\n', '').strip()
         soup = BeautifulSoup(page, "html.parser")
 
-        soup_vector = soup.find_all('p')
+        #soup_vector = soup.find_all('p')
 
         for k in range(len(soup_vector)):
             k2 = soup_vector[k]
