@@ -35,7 +35,7 @@ for k in range(12):
     page = str(page)
     soup = BeautifulSoup(page,'html.parser')
 
-    for i in soup.find_all('h3'):
+    #for i in soup.find_all('h3'):
         j = str(i)
         if 'class="entry-title td-module-title"' in j:
             url = j.split('href="')[1].split('"')[0].strip()
