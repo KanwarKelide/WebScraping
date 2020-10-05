@@ -69,6 +69,7 @@ from nltk.tree import Tree
 
 # List of initializations
 
+punctuation1 = '-!"#$%&()*+,:;<=>?@[\]^_`{|}~“Ââ€¦«'
 punctuation2 = '-!"#$%&()*+,:;<=>?@[\]^_`{|}~“Ââ€¦«'
 
 # List of Definitions
@@ -105,6 +106,11 @@ def strip_tags(html):
     s = MLStripper()
     s.feed(html)
     return s.get_data()
+
+#def strip_tags(html):
+#    s = MLStripper()
+#    s.feed(html)
+#    return s.get_data()
 
 def strip_punctuation(s):
    return ''.join(c for c in s if c not in (punctuation2))
