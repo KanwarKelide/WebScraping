@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
-# -*- coding: ISO-8859-1 -*-
-# -*- coding: ISO-8859-2 -*-
+
 import re
 from itertools import chain
 import dateutil.parser
