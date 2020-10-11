@@ -6,7 +6,6 @@
 #Date originally writen : 19/08/2019
 #Owner : Kanwar
 #Path : D:\Projects\Automotive\Codes\Dev
-#Version :
 
 #code_path = "D:\\Projects\\Automotive\\Codes\Dev\\"
 #exec(open(code_path + "global_environment_variables_v1.0.py").read())
