@@ -161,7 +161,7 @@ def replace_words(input):
     input = input.replace("'m", " am ")
     input = input.replace("'s","s")
     input = input.replace("theyre","they are")
-    input = input.replace("more and more","more")
+ 
     input = input.replace("..."," ")
     return input
 
