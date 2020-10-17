@@ -5,8 +5,7 @@
 #Successor : de_thetruthaboutcars_sentence_master_V1.0
 #Date originally writen : 27/08/2019
 #Owner : Kanwar
-#Path : D:\Projects\Automotive\Codes\Dev
-#Version :
+
 
 code_path = "D:\\Projects\\Automotive\\Codes\Dev\\"
 exec(open(code_path + "global_environment_variables_v1.0.py").read())
@@ -38,7 +37,7 @@ for z in range(s,e):
         page = page[:page.find('<!-- end postbody -->')]
 
         page = page.replace('\\r', '').replace('\\n', '').strip()
-        soup = BeautifulSoup(page, "html.parser")
+        #soup = BeautifulSoup(page, "html.parser")
 
         #soup_vector = soup.find_all('p')
 
