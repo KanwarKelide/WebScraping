@@ -25,7 +25,7 @@ all_failed =[]
 for k in range(12):
 
     if k%100==0:
-        print(k)
+        #print(k)
 
     u = df.iloc[k]['page_url']
     category = df.iloc[k]['Category']
