@@ -67,10 +67,10 @@ import time
 import multiprocessing
 from itertools import product
 
-def strip_tags(raw_html):
-  cleanr = re.compile('<.*?>')
-  cleantext = re.sub(cleanr, '', raw_html)
-  return cleantext
+#def strip_tags(raw_html):
+  #cleanr = re.compile('<.*?>')
+  #cleantext = re.sub(cleanr, '', raw_html)
+  #return cleantext
 
 contextual_stop_words = ['continent','years','months','month','year','century','centuries','days','day','weeks','week','country','decade','already','even']
 modal_verbs = ["has","can","could","do","should","does","would","have","had","did","is","are","hasnt","cannot","couldnt","dont","shouldnt","doesnt","wouldnt","havent","hadnt","didnt","isnt"]
