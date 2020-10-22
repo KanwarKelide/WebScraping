@@ -4,7 +4,6 @@
 #Predecessor :
 #Successor :
 #Date originally writen : 19/08/2019
-#Owner : Kanwar
 #Path : D:\Projects\Automotive\Codes\Dev
 
 #code_path = "D:\\Projects\\Automotive\\Codes\Dev\\"
