@@ -4,6 +4,8 @@
 
 # Version 1.1: Change log: Has increased Time Duration rows
 # Takes care of time durations like: 2012 And 2013, 2012 and 2013
+#
+
 
 # Folders
 main_dir = "D:\Projects\\"
@@ -22,7 +24,7 @@ import pandas as pd
 import sys
 # from langdetect import detect
 # from langdetect import detect_langs
-import unicodedata
+#import unicodedata
 import warnings
 import random
 import sys
@@ -128,7 +130,7 @@ def replace_words(input):
     input = input.replace("dont", "do not")
     input = input.replace("don't", "do not")
     input = input.replace("didnt", "did not")
-    input = input.replace("didn't", "did not")
+    
     input = input.replace("wouldnt", "would not")
     input = input.replace("wouldn't", "would not")
     input = input.replace("cannot", "can not")
