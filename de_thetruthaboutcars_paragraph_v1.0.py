@@ -20,7 +20,7 @@ all_paragraph_id = []
 all_article_id = []
 all_failed = []
 
-s= 0
+s = 0
 e = 5
 
 for z in range(s,e):
